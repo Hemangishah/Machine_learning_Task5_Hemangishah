@@ -1,0 +1,6 @@
+Feature Selection Methods:
+Filter Method (SelectKBest with f_classif from sklearn.feature_selection): Selects features with high statistical significance.
+Wrapper Method (RFE with RandomForestClassifier from sklearn.feature_selection and sklearn.ensemble): Iteratively removes the least important features based on a model.
+Embedded Method (LassoCV from sklearn.linear_model): Automatically selects features by shrinking less important ones to zero.
+Machine Learning Model:
+RandomForestClassifier: A classification model that helps achieve high accuracy, especially in ensemble methods.
